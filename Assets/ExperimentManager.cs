@@ -35,7 +35,7 @@ public class ExperimentManager : MonoBehaviour {
     int trainingTarget;
     string s;
 
-    float[] PredefinedFreqs = {9f, 10f, 11f, 12f};
+    float[] PredefinedFreqs = {7.5f, 12f, 20f};
     float HighCarrierFreq = 39f; //43f
     float[] HighPredefinedFreq = { 30f, 29f, 28f, 27f }; //{ 34f, 33f, 32f, 31f };
     //int[] conditions = { 1, 2, 3, 4, 5, 6, 7, 8 };
@@ -47,7 +47,7 @@ public class ExperimentManager : MonoBehaviour {
     float z_pos = 60;
     bool setTextFlag = false;
     bool practiceFlag = false;
-    bool parallelFlag = true;
+    bool parallelFlag = false;
 
     const int EXP_CONDITION_NUM = 1;
     const int EXP_BLOCK_NUM = 3;
@@ -61,7 +61,7 @@ public class ExperimentManager : MonoBehaviour {
     int BLOCK_NUM = 0;
     int TRIAL_PER_BLOCK = 0;
 
-    const int TARGET_NUM = 4;
+    const int TARGET_NUM = 3;
     const float STIM_LENGTH = 2;
     const float GAZE_SHIFT_LENGTH = 1f;
     const int HIGH_FREQ_FACTOR = 3;
