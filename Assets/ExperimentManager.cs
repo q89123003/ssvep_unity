@@ -50,8 +50,8 @@ public class ExperimentManager : MonoBehaviour {
     bool parallelFlag = false;
 
     const int EXP_CONDITION_NUM = 1;
-    const int EXP_BLOCK_NUM = 3;
-    const int EXP_TRIAL_PER_BLOCK = 4;
+    const int EXP_BLOCK_NUM = 2;
+    const int EXP_TRIAL_PER_BLOCK = 6;
 
     const int PRAC_CONDITION_NUM = 1;
     const int PRAC_BLOCK_NUM = 1;
@@ -61,8 +61,8 @@ public class ExperimentManager : MonoBehaviour {
     int BLOCK_NUM = 0;
     int TRIAL_PER_BLOCK = 0;
 
-    const int TARGET_NUM = 3;
-    const float STIM_LENGTH = 2;
+    const int TARGET_NUM = 1;
+    const float STIM_LENGTH = 1;
     const float GAZE_SHIFT_LENGTH = 1f;
     const int HIGH_FREQ_FACTOR = 3;
 
